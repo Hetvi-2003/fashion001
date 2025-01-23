@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Payment - Hetvi's Fashion</title>
+    <link rel="stylesheet" href="credit-card.css">
+</head>
+<body>
+    <header>
+        <h1>Credit Card Payment</h1>
+    </header>
+    <main>
+        <section class="payment-info">
+            <h2>Enter Your Credit Card Details</h2>
+            <form action="confirmation.html" method="post">
+                <label for="cc-number">Credit Card Number</label>
+                <input type="text" id="cc-number" name="cc-number" required>
+                
+                <label for="cc-expiration">Expiration Date</label>
+                <input type="text" id="cc-expiration" name="cc-expiration" required>
+                
+                <label for="cc-cvv">CVV</label>
+                <input type="text" id="cc-cvv" name="cc-cvv" required>
+                
+                <button type="submit">Submit Payment</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
